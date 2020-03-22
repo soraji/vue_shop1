@@ -23,7 +23,7 @@ export default {
   height: 100%;
   -webkit-box-align: center;
   align-items: center;
-  padding: 0 14px 10px 14px;
+  padding: 10px 14px 10px 14px;
   background: #fff;
   border-bottom: 1px solid #e7e7e7;
   position: relative;
@@ -36,5 +36,6 @@ export default {
 nav div{
   float:left;
   margin:0 10px;
+  cursor: pointer;
 }
 </style>

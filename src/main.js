@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import { router } from './routes/routes.js';
 import {store} from './store/index.js'; 
 import VModal from 'vue-js-modal'
+import 'balloon-css';
 
 Vue.config.productionTip = false
 Vue.use(VModal,{ dialog: true });
